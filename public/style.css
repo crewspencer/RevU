@@ -1,181 +1,170 @@
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 * {
-    -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
 }
 
-body{
-    margin:0;
-    color:white;
-    font-family: 'Roboto', sans-serif;
+body {
+  margin: 0;
+  color: white;
+  font-family: "Roboto", sans-serif;
 }
 body::-webkit-scrollbar {
-    display: none;
-  }
-  
-
-#headerTitle{
-    padding: 10px;
+  display: none;
 }
 
-#headerBackground{
-    background-image: linear-gradient(132deg, #8e26c4, #581295);
-    padding-bottom: 10px;
+#headerTitle {
+  padding: 10px;
 }
-#pointPosition{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    font-size: 12px;
-    height: 100px;
 
+#headerBackground {
+  background-image: linear-gradient(132deg, #8e26c4, #581295);
+  padding-bottom: 10px;
 }
-#cmLogo{
-    height: 50px;
-    width: 50px;
+#pointPosition {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 12px;
+  height: 100px;
 }
-#contestHeader{
-    display:flex;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: 14px;
-    height: 20px;
-    padding-top: 40px;
-    padding-left:20px;
-
+#cmLogo {
+  height: 50px;
+  width: 50px;
+}
+#contestHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+  height: 20px;
+  padding-top: 40px;
+  padding-left: 20px;
 }
 
 @media screen and (max-width: 1000px) {
-
-    #rules{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        max-width: 100%;
-        padding:25px;
-        padding-bottom:20px;
-        background-image: linear-gradient(132deg,#581295, #8e26c4 );
-
-    }
-    #ruleTitle{
-        display: flex;
-        justify-content: center;
-        max-width: 100%;
-    }
-
-    #prizeTitle{
-        display: flex;
-        justify-content: center;
-        max-width: 100%;
-    }
-    #prizeSection{
-        padding-top:20px;
-    }
-
-}
-
-
-  @media screen and (min-width: 1000px) {
-
-    #rules{
-        display: flex;
-        flex-direction: column;
-        padding-top:20px;
-        background-image: linear-gradient(132deg,#581295, #8e26c4 );
-        padding-bottom:30px;
-    }
-    #ruleTitle{
-        display: flex;
-        max-width: 100%;
-        padding-left: 100px;
-
-    }
-    #listItems{
-        padding-left: 100px;
-
-    }
-    #prizeTitle{
+  #rules {
     display: flex;
-        justify-content: center;
-    }
-    #prizeSection{
-        padding-top:20px;
-    }
-
-  }
-
-  #position {
-    color:black;
-    text-align: center;
+    flex-direction: column;
     justify-content: center;
-    font-size:15px;
-    padding:10px;
-    width: 120.05px;
-    height: 62.88px;
-    
-    /* word-break: break-all; */
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    background-color:#ffffff !important;
+    max-width: 100%;
+    padding: 25px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(132deg, #581295, #8e26c4);
   }
-
-  #position2 {
-    color:black;
-    text-align: center;
+  #ruleTitle {
+    display: flex;
     justify-content: center;
-    font-size:10px;
-    padding:2px;
-    
-    /* word-break: break-all; */
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    background-color:#ffffff !important;
+    max-width: 100%;
   }
 
-  #position1 {
-    color:black;
-    text-align: center;
+  #prizeTitle {
+    display: flex;
     justify-content: center;
-    font-size:15px;
-    height: 62.88px;
-    padding:10px;
-    
-    /* word-break: break-all; */
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    background-color:#ffffff !important;
+    max-width: 100%;
   }
-a{
-    text-decoration: none;
-    color:white;
-    scroll-behavior: smooth;
-
-}
-#nav{
-    display:flex;
-    justify-content: space-around;
-    list-style-type: none;
-    padding-top:10px;
-
-}
-.navPadding{
-    padding:10px;
-    margin-right: 115px;
-    margin-left: 115px;
-    padding-top:40px;
-
+  #prizeSection {
+    padding-top: 20px;
+  }
 }
 
-#listItems{
-    padding-bottom: 50px;
+@media screen and (min-width: 1000px) {
+  #rules {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    background-image: linear-gradient(132deg, #581295, #8e26c4);
+    padding-bottom: 30px;
+  }
+  #ruleTitle {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+  #listItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #prizeTitle {
+    display: flex;
+    justify-content: center;
+  }
+  #prizeSection {
+    padding-top: 20px;
+  }
 }
 
-#prizeSection{
-    height: 400px;
+#position {
+  color: black;
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 120.05px;
+  height: 62.88px;
+
+  /* word-break: break-all; */
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #ffffff !important;
 }
 
+#position2 {
+  color: black;
+  text-align: center;
+  justify-content: center;
+  font-size: 10px;
+  padding: 2px;
+
+  /* word-break: break-all; */
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #ffffff !important;
+}
+
+#position1 {
+  color: black;
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+  height: 62.88px;
+  padding: 10px;
+
+  /* word-break: break-all; */
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #ffffff !important;
+}
+a {
+  text-decoration: none;
+  color: white;
+  scroll-behavior: smooth;
+}
+#nav {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-top: 10px;
+}
+.navPadding {
+  padding: 10px;
+  margin-right: 115px;
+  margin-left: 115px;
+  padding-top: 40px;
+}
+
+#listItems {
+  padding-bottom: 50px;
+}
+
+#prizeSection {
+  height: 400px;
+}
