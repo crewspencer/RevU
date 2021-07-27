@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/crewspencer/RevU/issues"
   },
-  "homepage": "https://github.com/crewspencer/RevU#readme"
+  "homepage": "https://github.com/crewspencer/RevU#readme",
+  "engines": {
+    "node": "16.4.2"
+  }
 }
