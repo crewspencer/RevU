@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="headerBackground">
+        <div id="contestHeader">
+            <a href="https://www.currentmobile.us/"><img id="cmLogo" src="https://uploads-ssl.webflow.com/60149c79556ad85fdee215b3/6014ae4d45ef1cae8f469dea_current_icon_header.svg"></a>
+            <h1 id="headerTitle">Current Mobile</h1>
+            </div>
+
+
+            <div id="pointPosition">
+                <div class="row">
+                    <div class="column">
+                      <h2 id="timeSize">Time left to win!</h2>
+                      <div id="position2">
+                        <h2>72 Hours 13 Minutes 10 Seconds</h2>
+                      </div>
+                      <div id="columnSpacing"></div>
+                    </div>
+    
+                  </div>
+        </div>
+        <div id="nav">
+          <li class="navPadding"><a id="link" href="#id2">Rules</a></li>
+
+          <li class="navPadding"><a id="link" href="#id3">Prizes</a></li>
+      </div>
+    </div>
+
+
+<div id="offerWall">
+<iframe src="https://publishers.revenueuniverse.com/mobile/120/offers?uid=testUID"  width="100%" height="550px" scrolling="auto">
+</iframe>
+</div>
+<a name="id2">
+
+<div id="rules">
+  <div id="pointPosition">
+    <div class="row">
+        <div class="column">
+          <h2>Your<br> position</h2>
+          <div id="position">
+            <h2>#1</h2>
+          </div>
+          <div id="columnSpacing"></div>
+        </div>
+        <div class="column">
+          <h2>Person in<br> first has</h2>
+          <div id="position1">
+            <img src="https://image.flaticon.com/icons/png/512/785/785126.png" width="30px" height="30px">  <h2>13,000 </h2></img>
+          </div>
+        </div>
+      </div>
+</div>
+<br>
+<br>
+<br>
+
+
+    <div id="ruleTitle">
+        <h2> How To Play </h2>
+        </div>
+        <div id="listItems">
+<li>Step 1
+    Check out the available offers from Revenue Universe to earn valuable SB.</li> <br>
+<li>Step 2
+    Every time you complete an offer through Revenue Universe, you not only earn SB, but you increase your standing in the contest.
+    </li><br>
+<li>Step 3
+    The top 92 members who earn the most SB throughout the contest will win the prize associated with their position below!</li><br>
+<li>Step 4
+    Make sure to bookmark this page and check back every day for new offers, and for special promotions to earn more SB!</li><br>
+<li>Step 5
+    Earn as many SB as you can now through December 1st, 2021 to earn your share of 1 million SB!</li><br>
+</div>
+<a name="id3">
+
+<div id="prizeTitle">
+  <h2> Prizes </h2> 
+</div>
+<div id="prizeSection">
+  <div class="row">
+    <div class="prizeColumn">This Prize</div>
+
+    <div class="prizeColumn">That Prize</div>
+  </div>
+</div>
+
+
+</body>
+
+<style>
+.row {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.prizeColumn {
+  display: flex;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 70%;
+  padding: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 150px; 
+  margin: 15px;
+}
+
+
+
+</style>
+<script>
+    function scrollToAnchor(aid){
+    var aTag = $("a[name='"+ aid +"']");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
+
+   scrollToAnchor('id3');
+   scrollToAnchor('id2');
+
+
+</script>
+</html>
