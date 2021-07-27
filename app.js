@@ -1,7 +1,11 @@
-const port = process.argv[2] || 8080;
+const app = require("express")();
 
-persist(() => {
-  server.listen(port, () => {
-    console.log(`Current Mobile Offerwall Running on Port ${port}`);
-  });
+const PORT = process.env.PORT || 3001;
+
+app.get("", (req, res) => {
+  res.send("Hello World");
+});
+
+app.listen(PORT, () => {
+  console.log(`Current Mobile Offerwall Running on Port ${PORT}`);
 });
