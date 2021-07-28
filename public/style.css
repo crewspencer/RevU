@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
 }
 
 #headerBackground {
-  background-image: linear-gradient(132deg, #8e26c4, #581295);
+  background-image: linear-gradient(175deg, #8e26c4, #581295);
   padding-bottom: 10px;
 }
 #pointPosition {
