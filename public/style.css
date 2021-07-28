@@ -94,7 +94,10 @@ body::-webkit-scrollbar {
   #listItems {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
   }
   #prizeTitle {
     display: flex;
